@@ -11,6 +11,7 @@ header nav{
     /*border-top: 1px solid black;
     border-bottom: 1px solid black;*/
     position: fixed;
+    border-top: 2px  #999;
     width: 100%;
     left: 50%;
     padding: 10px;
@@ -18,9 +19,10 @@ header nav{
     align: center;
     transform: translate(-50%,0%);
     margin-top: 15px;
-    -webkit-box-shadow: 0 6px 4px -6px #999;
-    -moz-box-shadow: 0 6px 4px -6px #999;
-    box-shadow: 0 6px 4px -6px #999;
+    -webkit-box-shadow: 0px 6px 4px -6px #999;
+    -moz-box-shadow: 0px 6px 4px -6px #999;
+    box-shadow: 0 6px 4px -6px #999,
+    			0 -4px 2px -4px #DCDCDC;
     float :center;
 	/*padding-left: 100px;*/
 	text-align: center;
@@ -38,11 +40,49 @@ nav div.company-logo{
     content: url("../assets/endava.jpg");
 }
 
-#test{
+#buttons{
+	margin-left:20px;
+	height: 25px;
+	max-width: 50%;
+	display:inline;
+}
+
+.button{
+	margin-top: 10px;
+	padding-top: 10px;
+	height: 20px;
+	margin-left: 40px;
+	display: inline;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11px;
+	color: grey;
+	vertical-align: top;
+}
+
+.content1{
 	background-color: #30c3a6;
-	height: 300px;
+	position: relative;
+	height: 200px;
+	width: 100%;
 	/*border-top : 1px solid black;
 	border-bottom: 1px solid black;*/
+}
+
+#home div{
+	height:50px;
+	display: inline;
+    align: center;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+#home div > h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+
 }
 
 p{
