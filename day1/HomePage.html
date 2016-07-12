@@ -4,12 +4,27 @@
 		<title>HomePage</title>
 		<link href="css/header.css" type="text/css" rel="stylesheet"/>
 		<link href="css/footer.css" type="text/css" rel="stylesheet"/>
+		<script type="text/javascript">
+
+				  window.onscroll = function() {myFunction()};
+
+					function myFunction() {
+    					if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        					document.getElementById("navbar").style.position = "fixed";
+        					document.getElementById("navbar").style.margin = "-10px 0px";
+
+    					} else {
+        					document.getElementById("navbar").style.margin = "15px 0px";
+
+    					}
+					}
+		</script>
 	</head>
 	
 	<body>
 		<!-- header including navbar -->
 		<header>
-			<nav>
+			<nav id="navbar">
 				<div class="company-logo"></div>
 				<div id="buttons">
 					<a href="#home" style="font-weight: none; text-decoration: none;"><div class="button button1">Home</div></a>
@@ -21,7 +36,7 @@
 		</header>
 
 		<!-- content -->
-		<section>
+		<section onscroll="onScroll()">
 			<section  class="content1" id="home">
 				<div>
 					<h1>Lorem Ipsum</h1>
@@ -78,6 +93,10 @@
 				    </div>
 				</div>
 
+			</section>
+
+			<section id="contact">
+				
 			</section>
 
 		</section>

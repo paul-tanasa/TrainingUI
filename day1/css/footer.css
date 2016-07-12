@@ -4,12 +4,11 @@ footer{
 
 }
 footer div{
-	display: inline;
+	display: inline-block;
 	float: right;
 	width: 30%;
     padding: 10px;
     display: inline;
-
 }
 
 footer div p{
