@@ -1,0 +1,17 @@
+footer{
+ background-color: rgb(35,52,69);
+ height: 100px;
+
+}
+footer div{
+	display: inline;
+	float: right;
+	width: 30%;
+    padding: 10px;
+    display: inline;
+
+}
+
+footer div p{
+	font-size: 24px;
+}
