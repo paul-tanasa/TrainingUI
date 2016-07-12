@@ -1,4 +1,5 @@
 header{
+	z-index: 99;
 	background-color: white;
 	height: 150px;
 	/*border-top : 1px solid black;/
@@ -6,6 +7,7 @@ header{
 }
 
 header nav{
+	z-index: 100;
 	background-color: white;
     height: 50px;
     /*border-top: 1px solid black;
@@ -52,6 +54,8 @@ nav div.company-logo{
 	padding-top: 10px;
 	height: 20px;
 	margin-left: 40px;
+	padding: 4px 4px;
+    text-align: center;
 	display: inline;
 	text-transform: uppercase;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -63,32 +67,122 @@ nav div.company-logo{
 .content1{
 	background-color: #30c3a6;
 	position: relative;
-	height: 200px;
+	height: 350px;
 	width: 100%;
+	display: block;
+	/*display: flex;
+  	justify-content: center;
 	/*border-top : 1px solid black;
 	border-bottom: 1px solid black;*/
 }
 
 #home div{
-	height:50px;
-	display: inline;
+	vertical-align: middle;
+	/*border: 2px solid black;*/
+	height: 200px;
+	position: relative;
+	align-self: center;
+	vertical-align: middle;
+	padding-top: 30px;
+	/*display: inline;
     align: center;
     left: 50%;
-    transform: translate(-50%,0%);
+    transform: translate(-50%,0%);*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
 }
 
 #home div > h1{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
+	font-size: 38px;
+	margin-bottom: -5px;
+	vertical-align: top;
 	text-transform: uppercase;
 	color: white;
+	text-align: center;
 
 }
 
-p{
-	display: inline;
+#home div > p{
+	position: absolute;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+	color: white;
+}
+
+
+#about{
+	background-color: white;
+}
+
+#about div{
+	vertical-align: middle;
+	/*border: 2px solid black;*/
+	height: 200px;
+	position: relative;
+	align-self: center;
+	vertical-align: middle;
+	padding-top: 30px;
+	/*display: inline;
     align: center;
     left: 50%;
+    transform: translate(-50%,0%);*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+#about div > h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#about div > p{
+	position: absolute;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.readButton {
+    background-color: #555555; /* black */
+    border: none;
+    color: white;
+    position:relative;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    margin: 4px 2px;
+    left: 50%;
     transform: translate(-50%,0%);
-    margin-top: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #30c3a6;
+    color: white;
+}
+
+.button2:hover {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
