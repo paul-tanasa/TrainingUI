@@ -187,6 +187,24 @@ nav div.company-logo{
     width: 45%;
 }
 
+#photos div > h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px solid lightgrey; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+#photos div> h1 span { 
+    background:#30c3a6; 
+    padding:0 50px;
+}
+
 
 .blocktext {
     margin-left: auto;
@@ -238,11 +256,15 @@ nav div.company-logo{
 /* grid */
 [class*="row-"] {
   margin-bottom: 20px;
+  text-align: center;
 }
 [class*="row-"]:last-child {
   margin-bottom: 0;
+  text-align: center;
 }
 [class*="col-"] {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 @media all and ( min-width: 768px ) {
@@ -277,7 +299,6 @@ nav div.company-logo{
   .row-3 [class*="col-"]:first-child {
     margin-left: -40px;
   }
-  
   
 }
 
