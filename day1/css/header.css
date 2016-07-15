@@ -271,7 +271,7 @@ nav div.company-logo{
     width: 45%;
 }
 
-#contact div > h1{
+#contact #container2 > h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
@@ -284,23 +284,31 @@ nav div.company-logo{
     margin: 10px 0 20px; 
 }
 
-#contact div> h1 span { 
+#contact #container2> h1 span { 
     background: #E84F40; 
     padding:0 50px;
 }
 
+#contact #form> h1{
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    width: 100%; 
+    text-align: center;  
+}
 
 #contact #form{
     background-color: white;
-    height: 60%;
+    height: 70%;
     width: 95%;
-    position: absolute;
+    /*position: absolute;*/
     align-self: center;
     vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-top: 30px;
-    display: inline-block;
+    /*display: inline-block;*/
 
 }
 
