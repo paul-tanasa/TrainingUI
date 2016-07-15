@@ -76,6 +76,8 @@ nav div.company-logo{
 	border-bottom: 1px solid black;*/
 }
 
+/* HOME SECTION --------------------------------------------------*/
+
 #home div{
 	vertical-align: middle;
 	/*border: 2px solid black;*/
@@ -113,6 +115,7 @@ nav div.company-logo{
 	color: white;
 }
 
+/* ABOUT SECTION --------------------------------------------------*/
 
 #about{
 	background-color: white;
@@ -163,6 +166,8 @@ nav div.company-logo{
     font-weight: 200;
     color: grey;
 }
+
+/* PHOTOS SECTION --------------------------------------------------*/
 
 #photos{
     background-color: #30c3a6;
@@ -241,6 +246,99 @@ nav div.company-logo{
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/* CONTACT SECTION --------------------------------------------------*/
+
+#contact{
+    background-color: #E84F40;
+    min-height: 500px;
+}
+
+#contact #container2{
+    vertical-align: middle;
+    border: 2px solid black;
+    height: 80%;
+    position: relative;
+    align-self: center;
+    vertical-align: middle;
+    padding-top: 30px;
+    /*display: inline;
+    align: center;
+    left: 50%;
+    transform: translate(-50%,0%);*/
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 40px;*/
+    width: 45%;
+}
+
+#contact div > h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px solid lightgrey; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+#contact div> h1 span { 
+    background: #E84F40; 
+    padding:0 50px;
+}
+
+
+#contact #form{
+    background-color: white;
+    height: 60%;
+    width: 95%;
+    position: absolute;
+    align-self: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    display: inline-block;
+
+}
+
+#contact #form .affected{
+    position :relative ;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    width: 100%;
+    border: 1px solid black;
+    float: left;
+}
+
+.submitButton {
+    background-color: #30c3a6; /* black */
+    border: none;
+    color: white;
+    position:relative;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    margin: 4px 2px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+input{
+    width: 90%;
+    resize: both;
+}
+
+textarea { width: 90%; height: 100%; resize: both; }
+
 @media only screen and (max-width: 800px) {
     .content1{
         height: 700px;
@@ -310,4 +408,9 @@ nav div.company-logo{
 .col-1-3{
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
+}
+
+.col-1-3 .affected{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
 }
