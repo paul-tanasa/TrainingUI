@@ -255,7 +255,7 @@ nav div.company-logo{
 
 #contact #container2{
     vertical-align: middle;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     height: 80%;
     position: relative;
     align-self: center;
@@ -309,7 +309,7 @@ nav div.company-logo{
     font-family: 'Source Sans Pro', sans-serif;
     color: grey;
     width: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float: left;
 }
 
