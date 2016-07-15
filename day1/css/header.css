@@ -334,7 +334,6 @@ nav div.company-logo{
 
 input{
     width: 90%;
-    resize: both;
 }
 
 textarea { width: 90%; height: 100%; resize: both; }
